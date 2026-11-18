@@ -1,0 +1,423 @@
+{
+  "systemDate": "Nov 18, 2026",
+  "student": {
+    "name": "Alex M.",
+    "initials": "AM",
+    "id": "001489204",
+    "program": "B.S. Data Analytics",
+    "courseCode": "C999",
+    "courseTitle": "Data Management Foundations",
+    "statusText": "3rd Attempt Approval Requested",
+    "statusSeverity": "warning"
+  },
+  "bannerMetrics": [
+    { "label": "OA Attempts Used", "value": "2 of 4 Attempts", "highlight": true },
+    { "label": "Current Term Window", "value": "Jul 1 – Dec 31, 2026 (43 Days Left)", "highlight": true },
+    { "label": "Terms in C999", "value": "2nd Term (Carryover from Term 1)", "highlight": false },
+    { "label": "Program Mentor", "value": "D. Brooks", "highlight": false },
+    { "label": "Last Student Outreach", "value": "Nov 16, 2026 (Inbound Email)", "highlight": false },
+    { "label": "Last Academic Activity", "value": "Nov 16, 2026 (Course Email)", "highlight": false }
+  ],
+  "assignmentAlert": {
+    "title": "Queue Reassignment Alert — Transferred on Nov 15, 2026",
+    "description": "Student requested a Course Instructor change through Program Mentor D. Brooks following OA Attempt 2. Reassigned to your queue by CI Manager for Attempt 3 study plan design and approval.",
+    "badge": "New Queue Transfer"
+  },
+  "latestEmail": {
+    "statusBadge": "Status: Open — Awaiting CI Reply",
+    "from": "Alex M. (amerc99@wgu.edu)",
+    "date": "Nov 16, 2026 at 4:42 PM",
+    "subject": "Attempt 3 unlock before this weekend",
+    "body": "Hi,\n\nI was told by my mentor that you are my new instructor for C999. I still cannot believe I failed my second attempt on Nov 12. If you look at my coaching report, the bar was literally touching the line for SQL queries and DDL/DML.\n\nPlease just send me whatever requirements I need to check off so I can take the test this weekend. My term ends December 31st and I have to get this class behind me before the holidays.\n\nThanks,\nAlex"
+  },
+  "academicActivityByTerm": [
+    {
+      "termLabel": "Term 1 (Jan 1 – Jun 30, 2026)",
+      "dates": "Jan 1, 2026 – Jun 30, 2026 (Enrolled in C999 on Mar 2)",
+      "daysActiveSummary": "9 Active Days out of 121 Enrolled Days",
+      "periods": [
+        {
+          "period": "Mar 1 – Mar 15, 2026",
+          "touchpoints": "Opened Ch. 1 & Ch. 2 reading; took Pre-Assessment 4 times back-to-back (Mar 10); Attempt 1 OA (Mar 12)",
+          "timeLogged": "4 hrs 15 mins",
+          "statusLabel": "High Burst",
+          "statusClass": "active-low"
+        },
+        {
+          "period": "Mar 16 – Mar 31, 2026",
+          "touchpoints": "15-min Attempt 1 review call with previous CI (Mar 15); opened Ch. 3.1 for 11 mins",
+          "timeLogged": "0 hrs 11 mins",
+          "statusLabel": "Minimal Activity",
+          "statusClass": "active-low"
+        },
+        {
+          "period": "Apr 1 – Apr 30, 2026",
+          "touchpoints": "Zero courseware logins, zero quiz attempts, no reply to CI check-in",
+          "timeLogged": "0 hrs 00 mins",
+          "statusLabel": "0 Days Active",
+          "statusClass": "inactive"
+        },
+        {
+          "period": "May 1 – Jun 30, 2026",
+          "touchpoints": "Zero C999 logins for final 60 days of Term 1 (Course resulted in Not Passed carryover)",
+          "timeLogged": "0 hrs 00 mins",
+          "statusLabel": "0 Days Active",
+          "statusClass": "inactive"
+        }
+      ]
+    },
+    {
+      "termLabel": "Term 2 — Current (Jul 1 – Dec 31, 2026)",
+      "dates": "Jul 1, 2026 – Dec 31, 2026 (Current Date: Nov 18, 2026)",
+      "daysActiveSummary": "5 Active Days in Current Term",
+      "periods": [
+        {
+          "period": "Jul 1 – Sep 30, 2026",
+          "touchpoints": "Re-enrolled in C999 on Jul 1; zero C999 courseware activity across July, August, and September",
+          "timeLogged": "0 hrs 00 mins",
+          "statusLabel": "0 Days Active",
+          "statusClass": "inactive"
+        },
+        {
+          "period": "Oct 1 – Oct 31, 2026",
+          "touchpoints": "Logged in Oct 19 for 8 mins; downloaded Normalization worksheet PDF",
+          "timeLogged": "0 hrs 08 mins",
+          "statusLabel": "Minimal Activity",
+          "statusClass": "active-low"
+        },
+        {
+          "period": "Nov 1 – Nov 10, 2026",
+          "touchpoints": "Completed Ch. 1–5 End-of-Chapter Quizzes via multiple rapid retries on Nov 8; emailed screenshots",
+          "timeLogged": "0 hrs 44 mins",
+          "statusLabel": "Quiz Retries Only",
+          "statusClass": "active-low"
+        },
+        {
+          "period": "Nov 11 – Nov 18, 2026",
+          "touchpoints": "15-min unlock call (Nov 10); OA Attempt 2 failed (Nov 12); CI change requested (Nov 14); emailed new CI (Nov 16)",
+          "timeLogged": "0 hrs 58 mins (Exam)",
+          "statusLabel": "Awaiting Plan",
+          "statusClass": "active-low"
+        }
+      ]
+    }
+  ],
+  "courseware": {
+    "overallSummary": "Overall zyBooks: 34% • Total Labs: 2 of 22 Completed",
+    "chapters": [
+      {
+        "title": "Ch. 1: Intro to Databases & Business Intelligence",
+        "overallPct": 92,
+        "participationPct": 95,
+        "labsCompleted": "2 / 2 Labs",
+        "timeSpent": "2 hrs 10 mins"
+      },
+      {
+        "title": "Ch. 2: Data Modeling, ERDs & Cardinality",
+        "overallPct": 86,
+        "participationPct": 90,
+        "labsCompleted": "0 / 2 Labs",
+        "timeSpent": "1 hr 45 mins"
+      },
+      {
+        "title": "Ch. 3: Primary Keys, Normalization & Normal Forms (1NF–3NF)",
+        "overallPct": 18,
+        "participationPct": 22,
+        "labsCompleted": "0 / 4 Labs",
+        "timeSpent": "0 hrs 14 mins"
+      },
+      {
+        "title": "Ch. 4: DDL & DML Syntax (CREATE, ALTER, INSERT, SELECT)",
+        "overallPct": 6,
+        "participationPct": 8,
+        "labsCompleted": "0 / 8 Labs",
+        "timeSpent": "0 hrs 05 mins"
+      },
+      {
+        "title": "Ch. 5: Advanced SQL (JOINs, Views, Subqueries & Indexes)",
+        "overallPct": 0,
+        "participationPct": 0,
+        "labsCompleted": "0 / 6 Labs",
+        "timeSpent": "0 hrs 00 mins"
+      }
+    ],
+    "supplementalResources": [
+      { "name": "C999 Recorded Cohort Walkthroughs (Videos 1–4)", "status": "0 of 4 Watched (0 mins)" },
+      { "name": "Normalization Hands-On Activity Worksheet", "status": "Downloaded Oct 19 (Never submitted/reviewed)" },
+      { "name": "Live SQL Syntax Sandbox / Cohort Sessions", "status": "0 Sessions Attended" }
+    ],
+    "chapterQuizzes": [
+      { "quiz": "Chapter 1 Quiz (10 Qs)", "attempts": "2", "firstScore": "70%", "bestScore": "90%", "avgDuration": "4m 10s", "date": "Nov 8, 2026" },
+      { "quiz": "Chapter 2 Quiz (10 Qs)", "attempts": "2", "firstScore": "80%", "bestScore": "90%", "avgDuration": "3m 45s", "date": "Nov 8, 2026" },
+      { "quiz": "Chapter 3 Quiz: Normalization (15 Qs)", "attempts": "6", "firstScore": "33%", "bestScore": "93%", "avgDuration": "1m 50s", "date": "Nov 8, 2026" },
+      { "quiz": "Chapter 4 Quiz: DDL/DML Syntax (15 Qs)", "attempts": "5", "firstScore": "40%", "bestScore": "93%", "avgDuration": "2m 05s", "date": "Nov 8, 2026" },
+      { "quiz": "Chapter 5 Quiz: JOINs & Views (15 Qs)", "attempts": "6", "firstScore": "27%", "bestScore": "93%", "avgDuration": "1m 40s", "date": "Nov 8, 2026" }
+    ]
+  },
+  "assessments": [
+    {
+      "tabLabel": "OA Attempt 2 (Nov 12)",
+      "reportTitle": "Objective Assessment — Attempt 2 Coaching Report",
+      "assessmentType": "Proctored OA (70 Questions)",
+      "date": "Nov 12, 2026",
+      "duration": "58 mins (of 120m)",
+      "overallResult": "NOT PASSED",
+      "overallStatusLabel": "APPROACHING COMPETENCE",
+      "overallBarPct": 62,
+      "competencies": [
+        {
+          "name": "Data Modeling and Design",
+          "weight": 22,
+          "subtitle": "Entities, attributes, relationships, cardinality",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 76
+        },
+        {
+          "name": "Normalization and Normal Forms",
+          "weight": 18,
+          "subtitle": "Primary/Foreign keys, dependencies, 1NF, 2NF, 3NF",
+          "ratingLabel": "NOT COMPETENT",
+          "ratingClass": "not-competent",
+          "barPct": 28
+        },
+        {
+          "name": "DDL & DML Syntax",
+          "weight": 25,
+          "subtitle": "Explains database attributes & SQL commands",
+          "ratingLabel": "APPROACHING COMPETENCE",
+          "ratingClass": "approaching",
+          "barPct": 64
+        },
+        {
+          "name": "Advanced SQL: Joins & Views",
+          "weight": 20,
+          "subtitle": "Determines SQL queries, JOINs, aggregate functions",
+          "ratingLabel": "APPROACHING COMPETENCE",
+          "ratingClass": "approaching",
+          "barPct": 65
+        },
+        {
+          "name": "Business Intelligence",
+          "weight": 15,
+          "subtitle": "DBMS components, indexes, analytical databases",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 74
+        }
+      ],
+      "telemetry": [
+        { "label": "Attempt Number", "value": "OA Attempt 2 of 4" },
+        { "label": "Exam Date & Time", "value": "Nov 12, 2026 (8:15 PM EST)" },
+        { "label": "Time Elapsed", "value": "58 Minutes (120 Minutes Allotted)" },
+        { "label": "Gap Since OA Attempt 1", "value": "245 Days (Mar 12 → Nov 12, 2026)" },
+        { "label": "zyBooks Labs Completed Prior to Exam", "value": "2 of 22 Labs (Ch. 3–5 Labs at 0%)" }
+      ]
+    },
+    {
+      "tabLabel": "OA Attempt 1 (Mar 12)",
+      "reportTitle": "Objective Assessment — Attempt 1 Coaching Report",
+      "assessmentType": "Proctored OA (70 Questions)",
+      "date": "Mar 12, 2026",
+      "duration": "44 mins (of 120m)",
+      "overallResult": "NOT PASSED",
+      "overallStatusLabel": "NOT COMPETENT",
+      "overallBarPct": 46,
+      "competencies": [
+        {
+          "name": "Data Modeling and Design",
+          "weight": 22,
+          "subtitle": "Entities, attributes, relationships, cardinality",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 72
+        },
+        {
+          "name": "Normalization and Normal Forms",
+          "weight": 18,
+          "subtitle": "Primary/Foreign keys, dependencies, 1NF, 2NF, 3NF",
+          "ratingLabel": "NOT COMPETENT",
+          "ratingClass": "not-competent",
+          "barPct": 22
+        },
+        {
+          "name": "DDL & DML Syntax",
+          "weight": 25,
+          "subtitle": "Explains database attributes & SQL commands",
+          "ratingLabel": "NOT COMPETENT",
+          "ratingClass": "not-competent",
+          "barPct": 38
+        },
+        {
+          "name": "Advanced SQL: Joins & Views",
+          "weight": 20,
+          "subtitle": "Determines SQL queries, JOINs, aggregate functions",
+          "ratingLabel": "NOT COMPETENT",
+          "ratingClass": "not-competent",
+          "barPct": 41
+        },
+        {
+          "name": "Business Intelligence",
+          "weight": 15,
+          "subtitle": "DBMS components, indexes, analytical databases",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 70
+        }
+      ],
+      "telemetry": [
+        { "label": "Attempt Number", "value": "OA Attempt 1 of 4" },
+        { "label": "Exam Date & Time", "value": "Mar 12, 2026 (9:40 PM EST)" },
+        { "label": "Time Elapsed", "value": "44 Minutes (120 Minutes Allotted)" },
+        { "label": "Scheduled After Pre-Assessment #4", "value": "Scheduled 18 mins after passing 4th Pre-A" },
+        { "label": "zyBooks Chapters Read Prior to Exam", "value": "Stopped reading after Chapter 2" }
+      ]
+    },
+    {
+      "tabLabel": "Pre-Assessment #4 (Mar 10)",
+      "reportTitle": "Pre-Assessment — Attempt 4 of 4 Coaching Report",
+      "assessmentType": "Practice Exam (Unproctored)",
+      "date": "Mar 10, 2026",
+      "duration": "24 mins",
+      "overallResult": "PASSED",
+      "overallStatusLabel": "COMPETENT",
+      "overallBarPct": 70,
+      "competencies": [
+        {
+          "name": "Data Modeling and Design",
+          "weight": 22,
+          "subtitle": "Entities, attributes, relationships, cardinality",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 82
+        },
+        {
+          "name": "Normalization and Normal Forms",
+          "weight": 18,
+          "subtitle": "Primary/Foreign keys, dependencies, 1NF, 2NF, 3NF",
+          "ratingLabel": "NOT COMPETENT",
+          "ratingClass": "not-competent",
+          "barPct": 34
+        },
+        {
+          "name": "DDL & DML Syntax",
+          "weight": 25,
+          "subtitle": "Explains database attributes & SQL commands",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 71
+        },
+        {
+          "name": "Advanced SQL: Joins & Views",
+          "weight": 20,
+          "subtitle": "Determines SQL queries, JOINs, aggregate functions",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 70
+        },
+        {
+          "name": "Business Intelligence",
+          "weight": 15,
+          "subtitle": "DBMS components, indexes, analytical databases",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 80
+        }
+      ],
+      "telemetry": [
+        { "label": "Pre-A Attempt History", "value": "Failed Attempts 1, 2, and 3; barely passed Attempt 4" },
+        { "label": "Pre-A Attempt 1 (Mar 8)", "value": "Not Passed (42% — 38 mins)" },
+        { "label": "Pre-A Attempt 2 (Mar 9)", "value": "Not Passed (54% — 29 mins)" },
+        { "label": "Pre-A Attempt 3 (Mar 10, 6:10 PM)", "value": "Not Passed (63% — 22 mins)" },
+        { "label": "Pre-A Attempt 4 (Mar 10, 6:45 PM)", "value": "Passed (70% — 24 mins; Normalization still Not Competent)" }
+      ]
+    }
+  ],
+  "crmNotes": [
+    {
+      "date": "Mar 10, 2026",
+      "roleCategory": "CI",
+      "roleBadge": "Course Instructor",
+      "author": "R. Miller (Previous CI)",
+      "channel": "Outbound Email",
+      "title": "Pre-Assessment Passed Outreach",
+      "body": "Sent automated congrats email for passing the Pre-Assessment on Attempt 4. Let Alex know they are cleared to schedule the Objective Assessment whenever they feel ready and encouraged them to brush up on Normalization before testing."
+    },
+    {
+      "date": "Mar 15, 2026",
+      "roleCategory": "CI",
+      "roleBadge": "Course Instructor",
+      "author": "R. Miller (Previous CI)",
+      "channel": "15-Min Phone Call + Email",
+      "title": "OA Attempt 1 Review & Attempt 2 Study Plan Sent",
+      "body": "Reviewed Attempt 1 coaching report with Alex (missed cut score by a wide margin). Student admitted they stopped reading after Chapter 2, skimmed Chapter 3, and skipped all the zyBooks labs because they passed the Pre-Assessment on their 4th try and assumed the OA would have the same questions. Emailed Attempt 2 Study Plan below.",
+      "attachment": {
+        "heading": "Attached Email — OA Attempt 2 Study Plan (Sent Mar 15, 2026)",
+        "content": "Hi Alex,\nTo get approved for your second attempt in C999, please complete the following steps:\n1. Read Chapter 3 in zyBooks.\n2. Complete the Normalization Activity worksheet.\n3. Score 90% or higher on the End-of-Chapter Quizzes and email me screenshots of your scores.\n\nOnce you email me the quiz screenshots, we will do a quick call to unlock Attempt 2."
+      }
+    },
+    {
+      "date": "Mar 29, 2026",
+      "roleCategory": "CI",
+      "roleBadge": "Course Instructor",
+      "author": "R. Miller (Previous CI)",
+      "channel": "Outbound Email",
+      "title": "Biweekly Study Plan Check-In",
+      "body": "Sent check-in email to see how the Attempt 2 study plan is progressing. No response from student."
+    },
+    {
+      "date": "Jul 2, 2026",
+      "roleCategory": "CI",
+      "roleBadge": "Course Instructor",
+      "author": "R. Miller (Previous CI)",
+      "channel": "Outbound Email",
+      "title": "New Term Welcome (Term 2 Carryover)",
+      "body": "Welcome to the new term email sent. Student is re-enrolled in C999 for Term 2 (Jul 1 – Dec 31, 2026). Reminded student to send over the quiz screenshots from the March study plan whenever they are ready for Attempt 2."
+    },
+    {
+      "date": "Nov 8, 2026",
+      "roleCategory": "Student",
+      "roleBadge": "Student Email",
+      "author": "Alex M.",
+      "channel": "Inbound Email (5 Attachments)",
+      "title": "Quiz Screenshots Attached — Requesting Attempt 2 Unlock",
+      "body": "Hi Instructor Miller, I attached screenshots showing 90%+ on all five chapter quizzes. I have a work trip coming up this weekend so I need to take my OA before Friday. Please unlock Attempt 2."
+    },
+    {
+      "date": "Nov 10, 2026",
+      "roleCategory": "CI",
+      "roleBadge": "Course Instructor",
+      "author": "R. Miller (Previous CI)",
+      "channel": "15-Min Phone Call",
+      "title": "OA Attempt 2 Unlock Call & Approval",
+      "body": "Completed 15-minute Attempt 2 review call. Student was very rushed on the phone and pushing hard to test before leaving for a work trip. Verified the 90% quiz screenshots from their email. Asked Alex to explain the difference between a Primary Key and a Foreign Key. They struggled at first and went silent for a bit, but eventually found the definition in their notes and read it back accurately. Approved OA Attempt 2."
+    },
+    {
+      "date": "Nov 14, 2026",
+      "roleCategory": "Mentor",
+      "roleBadge": "Program Mentor",
+      "author": "D. Brooks (Program Mentor)",
+      "channel": "Mentor Call Note",
+      "title": "Student Requested Course Instructor Change",
+      "body": "Spoke with Alex after their Nov 12 OA Attempt 2 failure. Alex was very frustrated and requested a new Course Instructor for C999, sharing that they felt they didn't align with their current CI's style, felt rushed on their last unlock call, and still weren't sure what they actually got wrong on the test. Submitted CI reassignment request to the C999 Manager."
+    },
+    {
+      "date": "Nov 15, 2026",
+      "roleCategory": "Manager",
+      "roleBadge": "CI Manager",
+      "author": "A. Vance (CI Manager)",
+      "channel": "Salesforce Queue Transfer",
+      "title": "Course Instructor Reassignment Completed",
+      "body": "Processed Program Mentor request. Reassigned Alex M. to your caseload for C999 Attempt 3 coaching and study plan approval."
+    },
+    {
+      "date": "Nov 16, 2026",
+      "roleCategory": "Student",
+      "roleBadge": "Student Email",
+      "author": "Alex M.",
+      "channel": "Inbound Email",
+      "title": "Attempt 3 unlock before this weekend",
+      "body": "Hi, I was told by my mentor that you are my new instructor for C999. I still cannot believe I failed my second attempt on Nov 12. If you look at my coaching report, the bar was literally touching the line for SQL queries and DDL/DML. Please just send me whatever requirements I need to check off so I can take the test this weekend. My term ends December 31st and I have to get this class behind me before the holidays."
+    }
+  ]
+}
