@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>WGU Faculty CRM — Student Portal</title>
+  <title>WGU Faculty CRM | Student Portal</title>
   <style>
     :root {
       --navy-900: #00284c;
@@ -286,6 +286,8 @@
       justify-content: space-between;
       align-items: center;
       background: var(--bg-subtle);
+      flex-wrap: wrap;
+      gap: 10px;
     }
     .card-title {
       font-size: 14px;
@@ -325,18 +327,19 @@
       white-space: pre-line;
     }
 
-    /* Modular Academic Activity Switcher */
+    /* Modular Switcher */
     .sub-switcher {
       display: inline-flex;
       background: #e2e8f0;
       padding: 3px;
       border-radius: 6px;
       gap: 2px;
+      flex-wrap: wrap;
     }
     .sub-switch-btn {
       border: none;
       background: transparent;
-      padding: 4px 10px;
+      padding: 5px 11px;
       font-size: 12px;
       font-weight: 600;
       color: var(--text-muted);
@@ -347,6 +350,18 @@
       background: #fff;
       color: var(--navy-900);
       box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+    }
+
+    .current-term-tag {
+      display: inline-block;
+      background: #e0f2fe;
+      color: #0369a1;
+      border: 1px solid #bae6fd;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
     }
 
     .activity-table {
@@ -366,17 +381,22 @@
     .activity-table td {
       padding: 9px 10px;
       border-bottom: 1px solid #f1f5f9;
+      vertical-align: top;
     }
+
+    /* Engagement Status Pills: High, Mid, Low, No Activity Recorded */
     .activity-pill {
       display: inline-block;
       padding: 2px 8px;
       border-radius: 4px;
       font-size: 11.5px;
-      font-weight: 600;
+      font-weight: 700;
+      white-space: nowrap;
     }
-    .activity-pill.active-high { background: #dcfce7; color: #166534; }
-    .activity-pill.active-low { background: #fef9c3; color: #854d0e; }
-    .activity-pill.inactive { background: #fee2e2; color: #991b1b; }
+    .activity-pill.status-high { background: #dcfce7; color: #166534; }
+    .activity-pill.status-mid { background: #e0f2fe; color: #0369a1; }
+    .activity-pill.status-low { background: #fef9c3; color: #854d0e; }
+    .activity-pill.status-none { background: #f1f5f9; color: #64748b; border: 1px solid #cbd5e1; }
 
     /* Courseware Telemetry */
     .chapter-item {
@@ -527,7 +547,7 @@
     .text-approaching { color: var(--comp-amber); }
     .text-not-competent { color: var(--comp-red); }
 
-    /* Telemetry KV List */
+    /* Telemetry KV List & Attempt Dots */
     .kv-list {
       display: flex;
       flex-direction: column;
@@ -536,9 +556,11 @@
     .kv-row {
       display: flex;
       justify-content: space-between;
+      align-items: center;
       padding-bottom: 8px;
       border-bottom: 1px solid #f1f5f9;
       font-size: 13px;
+      gap: 12px;
     }
     .kv-row:last-child {
       border-bottom: none;
@@ -551,6 +573,28 @@
       font-weight: 600;
       color: var(--text-main);
       text-align: right;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .dot-group {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .attempt-dot {
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    .attempt-dot.pass {
+      background-color: var(--comp-green);
+      box-shadow: 0 0 0 2px #dcfce7;
+    }
+    .attempt-dot.fail {
+      background-color: var(--comp-red);
+      box-shadow: 0 0 0 2px #fee2e2;
     }
 
     /* Salesforce Notes Feed */
@@ -663,7 +707,7 @@
       <span class="sys-badge">Student Success CRM</span>
     </div>
     <div class="sys-meta">
-      <span id="sysCourseLabel">Course: C999 — Data Management Foundations</span>
+      <span id="sysCourseLabel">Course: C999 (Data Management Foundations)</span>
       <span>System Date: <strong id="sysDateLabel">Nov 18, 2026</strong></span>
     </div>
   </header>
@@ -679,14 +723,12 @@
             <span class="student-id" id="studentId">#000000000</span>
             <span class="status-pill warning" id="studentStatusBadge">Loading</span>
           </div>
-          <div class="student-subline" id="studentProgram">Program: —</div>
+          <div class="student-subline" id="studentProgram">Program: Loading</div>
         </div>
       </div>
     </div>
 
-    <div class="banner-metrics" id="bannerMetrics">
-      <!-- Populated from JSON -->
-    </div>
+    <div class="banner-metrics" id="bannerMetrics"></div>
 
     <nav class="main-tabs">
       <button class="tab-btn active" onclick="switchMainTab('profile', this)">
@@ -715,7 +757,7 @@
           <div class="card">
             <div class="card-header">
               <span class="card-title">Latest Student Message</span>
-              <span class="activity-pill active-low" id="latestEmailStatus">Status: Open — Awaiting CI Reply</span>
+              <span class="activity-pill status-low" id="latestEmailStatus">Status: Open (Awaiting CI Reply)</span>
             </div>
             <div class="card-body">
               <div class="email-box" id="latestEmailBox"></div>
@@ -724,13 +766,10 @@
 
           <div class="card">
             <div class="card-header">
-              <span class="card-title">Academic Activity Log (Course Touchpoints)</span>
+              <span class="card-title">Academic Activity Log</span>
               <div class="sub-switcher" id="termActivitySwitcher"></div>
             </div>
             <div class="card-body">
-              <p style="font-size:12.5px; color:var(--text-muted); margin-bottom:10px;">
-                Tracks logged student interactions across zyBooks, assessments, cohorts, and instructor outreach by 6-month term.
-              </p>
               <div id="termActivityTableContainer"></div>
             </div>
           </div>
@@ -755,7 +794,7 @@
 
               <div class="dropdown-Section">
                 <button class="dropdown-header" onclick="toggleDropdown('quizLogDropdown', this)">
-                  <span>End-of-Chapter Quizzes (Chapters 1–5 Telemetry Log)</span>
+                  <span id="quizDropdownTitle">End-of-Chapter Quizzes (Chapters 1 to 5 Telemetry Log)</span>
                   <span class="toggle-arrow">▼ Show Details</span>
                 </button>
                 <div id="quizLogDropdown" class="dropdown-content">
@@ -773,7 +812,7 @@
       <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px; flex-wrap:wrap; gap:12px;">
         <div class="sub-switcher" id="assessmentSwitcher"></div>
         <div style="font-size:12.5px; color:var(--text-muted);">
-          C999 Objective Assessment: <strong>70 Questions</strong> (120 Minutes Allotted)
+          C999 Objective Assessment: <strong>70 Questions</strong>
         </div>
       </div>
 
@@ -783,7 +822,7 @@
           <div class="report-header-Banner">
             <div>
               <div style="font-size:15px; font-weight:700;" id="reportTitle">OA Coaching Report &amp; Results</div>
-              <div style="font-size:12px; color:#cbd5e1;" id="reportSubtitle">Attempt Date: —</div>
+              <div style="font-size:12px; color:#cbd5e1;" id="reportSubtitle">Attempt Date: Loading</div>
             </div>
             <div style="font-size:12px; background:rgba(255,255,255,0.12); padding:4px 10px; border-radius:4px;" id="reportTypeBadge">
               Objective Assessment
@@ -806,9 +845,14 @@
       <!-- Side-by-Side Comparison View -->
       <div id="compareReportView" class="card" style="display:none;">
         <div class="card-header">
-          <span class="card-title">All Assessment Attempts — Side-by-Side Competency Comparison</span>
+          <span class="card-title">Chronological Assessment History (Oldest to Newest)</span>
+          <div class="sub-switcher" id="compareFilterSwitcher">
+            <button class="sub-switch-btn active" onclick="renderComparisonTable('all', this)">All Attempts</button>
+            <button class="sub-switch-btn" onclick="renderComparisonTable('OA', this)">OA Attempts Only</button>
+            <button class="sub-switch-btn" onclick="renderComparisonTable('PA', this)">Pre-Assessment Attempts Only</button>
+          </div>
         </div>
-        <div class="card-body" id="compareTableContainer"></div>
+        <div class="card-body" id="compareTableContainer" style="overflow-x:auto;"></div>
       </div>
     </div>
 
@@ -834,7 +878,6 @@
   <script>
     let studentData = null;
 
-    // Determine which JSON file to load based on ?student= or ?case=
     function getJsonFileName() {
       const params = new URLSearchParams(window.location.search);
       const key = (params.get('student') || params.get('case') || 'alex').toLowerCase();
@@ -857,12 +900,21 @@
       }
     }
 
+    function renderDots(dotsArray) {
+      if (!dotsArray || !Array.isArray(dotsArray)) return '';
+      const circles = dotsArray.map((status, i) => {
+        const cls = status === 'pass' ? 'pass' : 'fail';
+        const label = status === 'pass' ? `Attempt ${i + 1}: Passed` : `Attempt ${i + 1}: Not Passed`;
+        return `<span class="attempt-dot ${cls}" title="${label}"></span>`;
+      }).join('');
+      return `<span class="dot-group">${circles}</span>`;
+    }
+
     function renderDashboard(data) {
-      document.title = `WGU CRM — ${data.student.name} (${data.student.courseCode})`;
-      document.getElementById('sysCourseLabel').textContent = `Course: ${data.student.courseCode} — ${data.student.courseTitle}`;
+      document.title = `WGU CRM | ${data.student.name} (${data.student.courseCode})`;
+      document.getElementById('sysCourseLabel').textContent = `Course: ${data.student.courseCode} (${data.student.courseTitle})`;
       document.getElementById('sysDateLabel').textContent = data.systemDate;
 
-      // Top Student Header
       document.getElementById('studentInitials').textContent = data.student.initials;
       document.getElementById('studentName').textContent = data.student.name;
       document.getElementById('studentId').textContent = `ID: ${data.student.id}`;
@@ -871,7 +923,6 @@
       statusBadge.className = `status-pill ${data.student.statusSeverity || 'warning'}`;
       document.getElementById('studentProgram').textContent = `${data.student.program} • Course: ${data.student.courseCode} (${data.student.courseTitle})`;
 
-      // Banner Metrics
       const metricsHtml = data.bannerMetrics.map(m => `
         <div class="metric-item">
           <span class="metric-label">${m.label}</span>
@@ -880,7 +931,6 @@
       `).join('');
       document.getElementById('bannerMetrics').innerHTML = metricsHtml;
 
-      // Assignment Banner
       const alertBox = document.getElementById('assignmentBanner');
       alertBox.innerHTML = `
         <div>
@@ -890,7 +940,6 @@
         <span class="status-pill warning">${data.assignmentAlert.badge}</span>
       `;
 
-      // Latest Email
       document.getElementById('latestEmailStatus').textContent = data.latestEmail.statusBadge;
       document.getElementById('latestEmailBox').innerHTML = `
         <div class="email-meta">
@@ -905,7 +954,7 @@
       const termSwitcher = document.getElementById('termActivitySwitcher');
       termSwitcher.innerHTML = data.academicActivityByTerm.map((t, idx) => `
         <button class="sub-switch-btn ${idx === data.academicActivityByTerm.length - 1 ? 'active' : ''}" onclick="renderTermActivity(${idx}, this)">
-          ${t.termLabel}
+          ${t.termButtonLabel}
         </button>
       `).join('');
       renderTermActivity(data.academicActivityByTerm.length - 1);
@@ -937,7 +986,10 @@
         </div>
       `).join('');
 
-      // End-of-Chapter Quizzes Table
+      if (data.courseware.quizDropdownTitle) {
+        document.getElementById('quizDropdownTitle').textContent = data.courseware.quizDropdownTitle;
+      }
+
       document.getElementById('quizTelemetryTable').innerHTML = `
         <thead>
           <tr>
@@ -971,7 +1023,7 @@
         </button>
       `).join('');
       assessSwitcher.innerHTML = attemptsBtns + `
-        <button class="sub-switch-btn" onclick="renderComparisonView(this)">
+        <button class="sub-switch-btn" onclick="openComparisonView(this)">
           Compare All Attempts
         </button>
       `;
@@ -989,17 +1041,20 @@
       }
       const termObj = studentData.academicActivityByTerm[termIdx];
       document.getElementById('termActivityTableContainer').innerHTML = `
-        <div style="display:flex; justify-content:space-between; background:var(--bg-subtle); padding:8px 12px; border-radius:6px; border:1px solid var(--border); margin-bottom:10px; font-size:12.5px;">
-          <span><strong>Term Window:</strong> ${termObj.dates}</span>
-          <span><strong>Total Course Days Active:</strong> ${termObj.daysActiveSummary}</span>
+        <div style="display:flex; justify-content:space-between; align-items:center; background:var(--bg-subtle); padding:8px 12px; border-radius:6px; border:1px solid var(--border); margin-bottom:10px; font-size:12.5px; flex-wrap:wrap; gap:8px;">
+          <div>
+            <strong>${termObj.termButtonLabel}:</strong> ${termObj.dates}
+            ${termObj.isCurrentTerm ? '<span class="current-term-tag" style="margin-left:8px;">Current Term</span>' : ''}
+          </div>
+          <span><strong>Active Days:</strong> ${termObj.daysActiveSummary}</span>
         </div>
         <table class="activity-table">
           <thead>
             <tr>
-              <th>Month / Window</th>
-              <th>Academic Touchpoints Logged</th>
-              <th>Courseware / Lab Time</th>
-              <th>Engagement Status</th>
+              <th>Window</th>
+              <th>Academic Activity Logged</th>
+              <th>Course Time</th>
+              <th>Engagement Level</th>
             </tr>
           </thead>
           <tbody>
@@ -1065,12 +1120,15 @@
       document.getElementById('assessmentTelemetryList').innerHTML = attempt.telemetry.map(t => `
         <div class="kv-row">
           <span class="kv-label">${t.label}</span>
-          <span class="kv-val">${t.value}</span>
+          <span class="kv-val">
+            ${t.dots ? renderDots(t.dots) : ''}
+            <span>${t.value}</span>
+          </span>
         </div>
       `).join('');
     }
 
-    function renderComparisonView(btnEl) {
+    function openComparisonView(btnEl) {
       if (btnEl) {
         btnEl.parentElement.querySelectorAll('.sub-switch-btn').forEach(b => b.classList.remove('active'));
         btnEl.classList.add('active');
@@ -1078,7 +1136,23 @@
       document.getElementById('singleReportView').style.display = 'none';
       document.getElementById('compareReportView').style.display = 'block';
 
-      const assessments = studentData.assessments.slice().reverse();
+      const filterBtns = document.querySelectorAll('#compareFilterSwitcher .sub-switch-btn');
+      filterBtns.forEach((b, i) => b.classList.toggle('active', i === 0));
+      renderComparisonTable('all');
+    }
+
+    function renderComparisonTable(filterType, btnEl) {
+      if (btnEl) {
+        btnEl.parentElement.querySelectorAll('.sub-switch-btn').forEach(b => b.classList.remove('active'));
+        btnEl.classList.add('active');
+      }
+
+      // Chronological order: Oldest to Newest
+      const chronological = studentData.assessments.slice().reverse().filter(a => {
+        if (filterType === 'all') return true;
+        return a.category === filterType;
+      });
+
       const compNames = studentData.assessments[0].competencies;
 
       let html = `
@@ -1086,18 +1160,18 @@
           <thead>
             <tr>
               <th>Competency Area (Weight)</th>
-              ${assessments.map(a => `<th>${a.tabLabel}<br><span style="font-weight:400; font-size:11px;">${a.date}</span></th>`).join('')}
+              ${chronological.map(a => `<th>${a.shortLabel || a.tabLabel}<br><span style="font-weight:400; font-size:11px;">${a.date}</span></th>`).join('')}
             </tr>
           </thead>
           <tbody>
             <tr style="background:var(--bg-subtle);">
               <td><strong>OVERALL RESULT</strong></td>
-              ${assessments.map(a => `<td><strong>${a.overallResult}</strong> (${a.duration})</td>`).join('')}
+              ${chronological.map(a => `<td><strong>${a.overallResult}</strong><br><span style="font-size:11.5px; color:var(--text-muted);">Duration: ${a.duration}</span></td>`).join('')}
             </tr>
             ${compNames.map((comp, cIdx) => `
               <tr>
                 <td><strong>${comp.name} (${comp.weight}%)</strong><br><span style="font-size:11.5px; color:var(--text-muted);">${comp.subtitle}</span></td>
-                ${assessments.map(a => {
+                ${chronological.map(a => {
                   const cell = a.competencies[cIdx];
                   return `<td><span class="text-${cell.ratingClass}" style="font-weight:700; font-size:12px;">${cell.ratingLabel}</span></td>`;
                 }).join('')}
