@@ -15,8 +15,8 @@
     { "label": "Current Term Window", "value": "Aug 1, 2026 to Jan 31, 2027 (74 Days Left)", "highlight": false },
     { "label": "Terms in C999", "value": "1st Term in Course", "highlight": false },
     { "label": "Program Mentor", "value": "T. Alvarez", "highlight": false },
-    { "label": "Last Student Outreach", "value": "Nov 16, 2026 (Inbound Email)", "highlight": false },
-    { "label": "Last Academic Activity", "value": "Nov 16, 2026 (Course Email)", "highlight": false }
+    { "label": "Last Student Outreach", "value": "Nov 17, 2026 (15-Min CI Call)", "highlight": false },
+    { "label": "Last Academic Activity", "value": "Nov 17, 2026 (CI Diagnostic Call)", "highlight": false }
   ],
   "assignmentAlert": {
     "title": "Temporary Out-of-Office Coverage Alert (Nov 15 to Nov 22, 2026)",
@@ -24,22 +24,22 @@
     "badge": "OOO Coverage"
   },
   "latestEmail": {
-    "statusBadge": "Status: Open (Awaiting CI Follow-Up)",
+    "statusBadge": "Status: Followed Up on Nov 17 Call (Pending Attempt 4 Plan)",
     "from": "Jordan K.",
     "date": "Nov 16, 2026 at 11:15 AM",
     "subject": "Following up on our call / 4th attempt plan",
-    "body": "Hi,\n\nInstructor Chen had an auto-reply saying to reach out to you this week while she is out of office. After our screen-share call on Nov 14, I have been really stressed about needing committee approval for my 4th attempt.\n\nI have spent over 65 hours in this class since August and I honestly feel completely burnt out. Every time I read the zyBooks chapters, it makes sense while I am looking at the page, but when I get on the test or try to write a query from scratch, my mind goes completely blank. What should I be working on this week so my 4th attempt gets approved?\n\nThank you,\nJordan"
+    "body": "Hi,\n\nInstructor Chen had an auto-reply saying to reach out to you this week while she is out of office. After our screen-share call on Nov 14, I have been really anxious about needing committee approval for my 4th attempt.\n\nI have spent over 65 hours in this class since August and I honestly feel exhausted. Every time I read the zyBooks chapters or review flashcards, it makes sense while I am looking at the page, but when I get on the proctored test or try to write a query from scratch, I freeze up. What should I be working on this week so my 4th attempt gets approved?\n\nThank you,\nJordan"
   },
   "academicActivityByTerm": [
     {
       "termButtonLabel": "Term 1",
       "isCurrentTerm": true,
       "dates": "Aug 1, 2026 to Jan 31, 2027 (Enrolled in C999 on Aug 10)",
-      "daysActiveSummary": "54 Active Days in Current Term",
+      "daysActiveSummary": "55 Active Days in Current Term",
       "periods": [
         {
           "period": "Aug 10 to Aug 31, 2026",
-          "touchpoints": "Read Ch. 1 to Ch. 5 sequentially; took Pre-Assessment 3 times; attended 1 live cohort",
+          "touchpoints": "Read Ch. 1 to Ch. 5 sequentially; took Pre-Assessment 3 times",
           "timeLogged": "24 hrs 30 mins (~8 hrs/wk)",
           "statusLabel": "Mid",
           "statusClass": "status-mid"
@@ -53,15 +53,15 @@
         },
         {
           "period": "Oct 1 to Oct 31, 2026",
-          "touchpoints": "Failed OA Attempt 2 (Oct 1); Attempt 3 intake call (Oct 5); completed Ch. 4 zyLabs; worked on 90-Question Challenge Quiz",
+          "touchpoints": "Failed OA Attempt 2 (Oct 1); Attempt 3 intake call (Oct 5); attended 1 live cohort; completed Ch. 4 zyLabs; worked on 90-Question Challenge Quiz",
           "timeLogged": "16 hrs 40 mins (~4 hrs/wk)",
           "statusLabel": "Mid",
           "statusClass": "status-mid"
         },
         {
           "period": "Nov 1 to Nov 18, 2026",
-          "touchpoints": "Submitted 90-Question Challenge Quiz (Nov 8); failed OA Attempt 3 (Nov 10); 45-min live screen-share intake call (Nov 14)",
-          "timeLogged": "7 hrs 50 mins (~3 hrs/wk)",
+          "touchpoints": "Submitted 90-Question Challenge Quiz & completed 45-min review call (Nov 8); failed OA Attempt 3 (Nov 10); 45-min diagnostic call (Nov 14); 15-min coverage CI call (Nov 17)",
+          "timeLogged": "8 hrs 05 mins (~3 hrs/wk)",
           "statusLabel": "Mid",
           "statusClass": "status-mid"
         }
@@ -108,8 +108,8 @@
       }
     ],
     "supplementalResources": [
-      { "name": "Live Cohort", "status": "2 Sessions Attended" },
-      { "name": "Self-Paced Cohort", "status": "4 Modules Completed" },
+      { "name": "Live Cohort", "status": "1 Session Attended" },
+      { "name": "Self-Paced Cohort", "status": "0 Modules Completed" },
       { "name": "90-Question Challenge Quiz (Attempt 3 Requirement)", "status": "Submitted Nov 8 (Score: 95%)" }
     ],
     "quizDropdownTitle": "End-of-Chapter & Challenge Quizzes (Telemetry Log)",
@@ -636,7 +636,7 @@
       "body": "Spoke with Jordan following OA Attempt 2. Student was frustrated that the OA questions do not match the Pre-Assessment. Reviewed PA history together: Jordan has taken the PA 5 times, passing the last 3 with near-perfect scores in under 30 minutes. Diagnosed PA memorization. Assigned Attempt 3 MAP below.",
       "attachment": {
         "heading": "Attached Email: OA Attempt 3 MAP (Sent Oct 5, 2026)",
-        "content": "Hi Jordan,\nBecause you have seen the Pre-Assessment questions several times, we want to shift away from the PA and focus on new practice questions for Attempt 3:\n1. Complete the Chapter 4 zyBooks Labs (6 of 8 labs).\n2. Complete the comprehensive 90-Question Challenge Quiz (closed-note diagnostic) with a score of 85% or higher.\n\nI will check in with you in two weeks to see how you are feeling."
+        "content": "Hi Jordan,\nBecause you have seen the Pre-Assessment questions several times, we want to shift away from the PA and focus on hands-on practice and new questions for Attempt 3:\n1. Attend the Live SQL Cohort session.\n2. Complete the Chapter 4 zyBooks Labs (6 of 8 labs).\n3. Complete the comprehensive 90-Question Challenge Quiz (closed-note diagnostic) with a score of 85% or higher.\n4. Schedule a 45-minute readiness review call with me after submitting the 90-Question Challenge Quiz so we can review the concepts together before unlocking Attempt 3."
       }
     },
     {
@@ -646,7 +646,7 @@
       "author": "M. Chen (Primary CI)",
       "channel": "Outbound / Inbound Email",
       "title": "1-2-3 Study Plan Check-In",
-      "body": "Sent 1-2-3 check-in email. Student replied: '2: Feeling overwhelmed by the 90-Question Challenge Quiz and worried about failing again.'"
+      "body": "Sent 1-2-3 check-in email. Student replied with '2: Feeling overwhelmed' and added that they feel completely overwhelmed by the whole course and the 90-Question Challenge Quiz, are very worried about failing a third time, and shared that this class is giving them high anxiety."
     },
     {
       "date": "Oct 25, 2026",
@@ -655,16 +655,25 @@
       "author": "M. Chen (Primary CI)",
       "channel": "10-Min Phone Call",
       "title": "Check-In Call & Reassurance",
-      "body": "Quick call to reassure Jordan and lower their test anxiety. Reminded them they can use their course notes and study sheets for the 90-Question Challenge Quiz so they do not feel so overwhelmed."
+      "body": "Quick call to reassure Jordan and help ease their anxiety around the course. Reminded them they can use their course notes and study sheets while working through the 90-Question Challenge Quiz so they do not feel so overwhelmed."
     },
     {
-      "date": "Nov 8, 2026",
+      "date": "Nov 8, 2026 (1:15 PM)",
       "roleCategory": "CI",
       "roleBadge": "Course Instructor",
       "author": "M. Chen (Primary CI)",
-      "channel": "Salesforce Approval Note",
-      "title": "90-Question Challenge Quiz Submitted & Attempt 3 Approved",
-      "body": "Student completed Chapter 4 labs and submitted the 90-Question Challenge Quiz with a 95% score. Approved OA Attempt 3."
+      "channel": "System Submission Log",
+      "title": "90-Question Challenge Quiz Submitted (Pending Review Call)",
+      "body": "Student completed the Live Cohort requirement, finished 6 of 8 Chapter 4 labs, and submitted the 90-Question Challenge Quiz with a 95% score. OA Attempt 3 remains locked pending our scheduled 45-minute readiness review call later today."
+    },
+    {
+      "date": "Nov 8, 2026 (4:30 PM)",
+      "roleCategory": "CI",
+      "roleBadge": "Course Instructor",
+      "author": "M. Chen (Primary CI)",
+      "channel": "45-Min Readiness Call",
+      "title": "Attempt 3 Readiness Review Call & Approval",
+      "body": "Met with Jordan for a 45-minute call to review the Attempt 3 study plan items and discuss topics from the 90-Question Challenge Quiz. Walked through multiple-choice concepts and worked through guided SQL syntax troubleshooting problems together where Jordan spotted and fixed issues in sample queries. Jordan was able to answer the discussion questions and complete the guided syntax checks during the session. Approved OA Attempt 3."
     },
     {
       "date": "Nov 14, 2026",
@@ -672,8 +681,8 @@
       "roleBadge": "Course Instructor",
       "author": "M. Chen (Primary CI)",
       "channel": "45-Min Live Screen-Share Call",
-      "title": "OA Attempt 4 Intake & Live Diagnostic",
-      "body": "Conducted 45-minute live screen-share after Jordan's Attempt 3 score dropped significantly lower than Attempt 2. Student is completely burnt out. Jordan confessed that after being told they could use resources on the 90-Question Challenge Quiz, they found a Quizlet deck online with the exact Challenge Quiz questions and memorized the answers just to get past the Attempt 3 requirements.\n\nDuring live SQL coding on screen-share, Jordan could not write a basic SELECT...FROM...WHERE statement from scratch or identify which table was the Left vs. Right table in a JOIN without looking at examples. Informed Jordan that Attempt 4 requires Multiple Attempt Committee (ACC) approval and a complete foundational reset. Let Jordan know I am on Out-of-Office leave Nov 15 to Nov 22 and a covering CI will finalize their Attempt 4 plan."
+      "title": "OA Attempt 4 Diagnostic Call & Policy Review",
+      "body": "Met with Jordan for a 45-minute diagnostic screen-share call following OA Attempt 3 to evaluate how they approached the exam and where the breakdown occurred. Jordan shared that after being told they could use their notes on the 90-Question Challenge Quiz, they also found a Quizlet flashcard set online covering those concepts, which helped them score 95% and made them feel confident. They noted that our Nov 8 review call also made them feel ready, and while they knew they still needed some work on their SQL syntax, they did not expect the exam to go that poorly.\n\nDuring the diagnostic check, Jordan answered the multiple-choice conceptual questions just fine. However, during the live coding portion of the call (starting from a blank query window without multiple-choice options or existing code to reference), Jordan was unable to write a basic SELECT...FROM...WHERE statement from scratch and could not identify which type of JOIN to use for a given scenario. Discussed the WGU 4th Attempt policy, explained that Attempt 4 requires Multiple Attempt Committee (ACC) approval, and let Jordan know that I am on Out-of-Office leave Nov 15 to Nov 22 so a covering CI will follow up to finalize their Attempt 4 plan."
     },
     {
       "date": "Nov 15, 2026",
@@ -691,7 +700,16 @@
       "author": "Jordan K.",
       "channel": "Inbound Email",
       "title": "Following up on our call / 4th attempt plan",
-      "body": "Hi, Instructor Chen had an auto-reply saying to reach out to you this week while she is out of office. After our screen-share call on Nov 14, I have been really stressed about needing committee approval for my 4th attempt. I have spent over 65 hours in this class since August and I honestly feel completely burnt out. Every time I read the zyBooks chapters, it makes sense while I am looking at the page, but when I get on the test or try to write a query from scratch, my mind goes completely blank. What should I be working on this week so my 4th attempt gets approved?"
+      "body": "Hi, Instructor Chen had an auto-reply saying to reach out to you this week while she is out of office. After our screen-share call on Nov 14, I have been really anxious about needing committee approval for my 4th attempt. I have spent over 65 hours in this class since August and I honestly feel exhausted. Every time I read the zyBooks chapters or review flashcards, it makes sense while I am looking at the page, but when I get on the proctored test or try to write a query from scratch, I freeze up. What should I be working on this week so my 4th attempt gets approved?"
+    },
+    {
+      "date": "Nov 17, 2026",
+      "roleCategory": "CI",
+      "roleBadge": "Course Instructor",
+      "author": "You (Coverage CI)",
+      "channel": "15-Min Diagnostic & Intake Call",
+      "title": "Coverage CI Follow-Up & Diagnostic Check",
+      "body": "Connected with Jordan for a 15-minute diagnostic call following their email. Jordan shared that they experience high test anxiety as soon as the proctored OA starts and asked for test-taking strategies to manage blanking out during the exam. We also discussed their current comfort level across the competencies: Jordan can recognize terms when looking at multiple-choice study guides, but is still struggling to write SQL syntax independently across the two syntax competencies (DDL & DML Syntax, and Advanced SQL: Joins & Views). Let Jordan know I am putting together a structured Attempt 4 study plan and ACC success strategy and will send it over shortly."
     }
   ]
 }
