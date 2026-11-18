@@ -1,0 +1,697 @@
+{
+  "systemDate": "Nov 18, 2026",
+  "student": {
+    "name": "Jordan K.",
+    "initials": "JK",
+    "id": "001842910",
+    "program": "B.S. Cloud Computing",
+    "courseCode": "C999",
+    "courseTitle": "Data Management Foundations",
+    "statusText": "4th Attempt Approval Requested (High Stakes / ACC Required)",
+    "statusSeverity": "danger"
+  },
+  "bannerMetrics": [
+    { "label": "OA Attempts Used", "value": "3 of 4 Attempts", "highlight": true },
+    { "label": "Current Term Window", "value": "Aug 1, 2026 to Jan 31, 2027 (74 Days Left)", "highlight": false },
+    { "label": "Terms in C999", "value": "1st Term in Course", "highlight": false },
+    { "label": "Program Mentor", "value": "T. Alvarez", "highlight": false },
+    { "label": "Last Student Outreach", "value": "Nov 16, 2026 (Inbound Email)", "highlight": false },
+    { "label": "Last Academic Activity", "value": "Nov 16, 2026 (Course Email)", "highlight": false }
+  ],
+  "assignmentAlert": {
+    "title": "Temporary Out-of-Office Coverage Alert (Nov 15 to Nov 22, 2026)",
+    "description": "Primary CI (M. Chen) is on planned Out-of-Office leave. Jordan K. was routed to your queue for Attempt 4 study plan follow-up and Multiple Attempt Committee (ACC) packet preparation.",
+    "badge": "OOO Coverage"
+  },
+  "latestEmail": {
+    "statusBadge": "Status: Open (Awaiting CI Follow-Up)",
+    "from": "Jordan K.",
+    "date": "Nov 16, 2026 at 11:15 AM",
+    "subject": "Following up on our call / 4th attempt plan",
+    "body": "Hi,\n\nInstructor Chen had an auto-reply saying to reach out to you this week while she is out of office. After our screen-share call on Nov 14, I have been really stressed about needing committee approval for my 4th attempt.\n\nI have spent over 65 hours in this class since August and I honestly feel completely burnt out. Every time I read the zyBooks chapters, it makes sense while I am looking at the page, but when I get on the test or try to write a query from scratch, my mind goes completely blank. What should I be working on this week so my 4th attempt gets approved?\n\nThank you,\nJordan"
+  },
+  "academicActivityByTerm": [
+    {
+      "termButtonLabel": "Term 1",
+      "isCurrentTerm": true,
+      "dates": "Aug 1, 2026 to Jan 31, 2027 (Enrolled in C999 on Aug 10)",
+      "daysActiveSummary": "54 Active Days in Current Term",
+      "periods": [
+        {
+          "period": "Aug 10 to Aug 31, 2026",
+          "touchpoints": "Read Ch. 1 to Ch. 5 sequentially; took Pre-Assessment 3 times; attended 1 live cohort",
+          "timeLogged": "24 hrs 30 mins (~8 hrs/wk)",
+          "statusLabel": "Mid",
+          "statusClass": "status-mid"
+        },
+        {
+          "period": "Sep 1 to Sep 30, 2026",
+          "touchpoints": "Failed OA Attempt 1 (Sep 5); Attempt 1 review call (Sep 12); re-read Ch. 4 & Ch. 5; took Pre-Assessment Attempts 4 & 5",
+          "timeLogged": "19 hrs 15 mins (~5 hrs/wk)",
+          "statusLabel": "Mid",
+          "statusClass": "status-mid"
+        },
+        {
+          "period": "Oct 1 to Oct 31, 2026",
+          "touchpoints": "Failed OA Attempt 2 (Oct 1); Attempt 3 intake call (Oct 5); completed Ch. 4 zyLabs; worked on 90-Question Challenge Quiz",
+          "timeLogged": "16 hrs 40 mins (~4 hrs/wk)",
+          "statusLabel": "Mid",
+          "statusClass": "status-mid"
+        },
+        {
+          "period": "Nov 1 to Nov 18, 2026",
+          "touchpoints": "Submitted 90-Question Challenge Quiz (Nov 8); failed OA Attempt 3 (Nov 10); 45-min live screen-share intake call (Nov 14)",
+          "timeLogged": "7 hrs 50 mins (~3 hrs/wk)",
+          "statusLabel": "Mid",
+          "statusClass": "status-mid"
+        }
+      ]
+    }
+  ],
+  "courseware": {
+    "overallSummary": "Overall zyBooks: 88% • Total Labs: 14 of 22 Completed",
+    "chapters": [
+      {
+        "title": "Ch. 1: Intro to Databases & Business Intelligence",
+        "overallPct": 100,
+        "participationPct": 100,
+        "labsCompleted": "2 / 2 Labs",
+        "timeSpent": "6 hrs 20 mins"
+      },
+      {
+        "title": "Ch. 2: Data Modeling, ERDs & Cardinality",
+        "overallPct": 96,
+        "participationPct": 100,
+        "labsCompleted": "2 / 2 Labs",
+        "timeSpent": "8 hrs 15 mins"
+      },
+      {
+        "title": "Ch. 3: Primary Keys, Normalization & Normal Forms",
+        "overallPct": 90,
+        "participationPct": 94,
+        "labsCompleted": "3 / 4 Labs",
+        "timeSpent": "11 hrs 40 mins"
+      },
+      {
+        "title": "Ch. 4: DDL & DML Syntax (CREATE, ALTER, INSERT, SELECT)",
+        "overallPct": 85,
+        "participationPct": 92,
+        "labsCompleted": "6 / 8 Labs",
+        "timeSpent": "19 hrs 10 mins"
+      },
+      {
+        "title": "Ch. 5: Advanced SQL (JOINs, Views, Subqueries & Indexes)",
+        "overallPct": 72,
+        "participationPct": 88,
+        "labsCompleted": "1 / 6 Labs",
+        "timeSpent": "14 hrs 05 mins"
+      }
+    ],
+    "supplementalResources": [
+      { "name": "Live Cohort", "status": "2 Sessions Attended" },
+      { "name": "Self-Paced Cohort", "status": "4 Modules Completed" },
+      { "name": "90-Question Challenge Quiz (Attempt 3 Requirement)", "status": "Submitted Nov 8 (Score: 95%)" }
+    ],
+    "quizDropdownTitle": "End-of-Chapter & Challenge Quizzes (Telemetry Log)",
+    "chapterQuizzes": [
+      { "quiz": "Chapter 1 Quiz (10 Qs)", "attempts": "1", "firstScore": "90%", "bestScore": "90%", "avgDuration": "11m 20s", "date": "Aug 16, 2026" },
+      { "quiz": "Chapter 2 Quiz (10 Qs)", "attempts": "1", "firstScore": "90%", "bestScore": "90%", "avgDuration": "13m 05s", "date": "Aug 22, 2026" },
+      { "quiz": "Chapter 3 Quiz: Normalization (15 Qs)", "attempts": "2", "firstScore": "73%", "bestScore": "87%", "avgDuration": "18m 40s", "date": "Aug 29, 2026" },
+      { "quiz": "Chapter 4 Quiz: DDL/DML Syntax (15 Qs)", "attempts": "2", "firstScore": "60%", "bestScore": "80%", "avgDuration": "22m 15s", "date": "Sep 20, 2026" },
+      { "quiz": "Chapter 5 Quiz: JOINs & Views (15 Qs)", "attempts": "2", "firstScore": "53%", "bestScore": "80%", "avgDuration": "24m 10s", "date": "Sep 26, 2026" },
+      { "quiz": "90-Question Challenge Quiz (Comprehensive)", "attempts": "1", "firstScore": "95%", "bestScore": "95%", "avgDuration": "28m 10s", "date": "Nov 8, 2026" }
+    ]
+  },
+  "assessments": [
+    {
+      "category": "OA",
+      "tabLabel": "OA Attempt 3 (Nov 10)",
+      "shortLabel": "OA Attempt 3",
+      "reportTitle": "Objective Assessment: Attempt 3 Coaching Report",
+      "assessmentType": "Proctored OA",
+      "date": "Nov 10, 2026",
+      "duration": "108 mins",
+      "overallResult": "NOT PASSED",
+      "overallStatusLabel": "NOT COMPETENT",
+      "overallBarPct": 48,
+      "competencies": [
+        {
+          "name": "Data Modeling and Design",
+          "weight": 22,
+          "subtitle": "Entities, attributes, relationships, cardinality",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 74
+        },
+        {
+          "name": "Normalization and Normal Forms",
+          "weight": 18,
+          "subtitle": "Primary/Foreign keys, dependencies, 1NF, 2NF, 3NF",
+          "ratingLabel": "APPROACHING COMPETENCE",
+          "ratingClass": "approaching",
+          "barPct": 58
+        },
+        {
+          "name": "DDL & DML Syntax",
+          "weight": 25,
+          "subtitle": "Explains database attributes & SQL commands",
+          "ratingLabel": "NOT COMPETENT",
+          "ratingClass": "not-competent",
+          "barPct": 30
+        },
+        {
+          "name": "Advanced SQL: Joins & Views",
+          "weight": 20,
+          "subtitle": "Determines SQL queries, JOINs, aggregate functions",
+          "ratingLabel": "NOT COMPETENT",
+          "ratingClass": "not-competent",
+          "barPct": 34
+        },
+        {
+          "name": "Business Intelligence",
+          "weight": 15,
+          "subtitle": "DBMS components, indexes, analytical databases",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 72
+        }
+      ],
+      "telemetry": [
+        { "label": "Attempt Number", "value": "OA Attempt 3 of 4" },
+        { "label": "Exam Date", "value": "Nov 10, 2026" },
+        { "label": "Time Elapsed", "value": "108 Minutes" },
+        { "label": "Pre-A Attempts Between OA 2 & OA 3", "value": "0 Attempts" },
+        { "label": "zyBooks Completion Rate Prior to Attempt 3", "value": "88% Overall (64% Labs)" }
+      ]
+    },
+    {
+      "category": "OA",
+      "tabLabel": "OA Attempt 2 (Oct 1)",
+      "shortLabel": "OA Attempt 2",
+      "reportTitle": "Objective Assessment: Attempt 2 Coaching Report",
+      "assessmentType": "Proctored OA",
+      "date": "Oct 1, 2026",
+      "duration": "96 mins",
+      "overallResult": "NOT PASSED",
+      "overallStatusLabel": "APPROACHING COMPETENCE",
+      "overallBarPct": 59,
+      "competencies": [
+        {
+          "name": "Data Modeling and Design",
+          "weight": 22,
+          "subtitle": "Entities, attributes, relationships, cardinality",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 76
+        },
+        {
+          "name": "Normalization and Normal Forms",
+          "weight": 18,
+          "subtitle": "Primary/Foreign keys, dependencies, 1NF, 2NF, 3NF",
+          "ratingLabel": "APPROACHING COMPETENCE",
+          "ratingClass": "approaching",
+          "barPct": 63
+        },
+        {
+          "name": "DDL & DML Syntax",
+          "weight": 25,
+          "subtitle": "Explains database attributes & SQL commands",
+          "ratingLabel": "APPROACHING COMPETENCE",
+          "ratingClass": "approaching",
+          "barPct": 52
+        },
+        {
+          "name": "Advanced SQL: Joins & Views",
+          "weight": 20,
+          "subtitle": "Determines SQL queries, JOINs, aggregate functions",
+          "ratingLabel": "NOT COMPETENT",
+          "ratingClass": "not-competent",
+          "barPct": 44
+        },
+        {
+          "name": "Business Intelligence",
+          "weight": 15,
+          "subtitle": "DBMS components, indexes, analytical databases",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 75
+        }
+      ],
+      "telemetry": [
+        { "label": "Attempt Number", "value": "OA Attempt 2 of 4" },
+        { "label": "Exam Date", "value": "Oct 1, 2026" },
+        { "label": "Time Elapsed", "value": "96 Minutes" },
+        { "label": "Cumulative Pre-A Attempts Prior to OA 2", "dots": ["fail", "fail", "pass", "pass", "pass"], "value": "(5 Attempts)" },
+        { "label": "zyBooks Completion Rate Prior to Attempt 2", "value": "76% Overall (36% Labs)" }
+      ]
+    },
+    {
+      "category": "PA",
+      "tabLabel": "Pre-A #5 (Sep 28)",
+      "shortLabel": "Pre-A #5",
+      "reportTitle": "Pre-Assessment: Attempt 5 Coaching Report",
+      "assessmentType": "Pre-Assessment",
+      "date": "Sep 28, 2026",
+      "duration": "19 mins",
+      "overallResult": "PASSED",
+      "overallStatusLabel": "COMPETENT",
+      "overallBarPct": 98,
+      "competencies": [
+        {
+          "name": "Data Modeling and Design",
+          "weight": 22,
+          "subtitle": "Entities, attributes, relationships, cardinality",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 100
+        },
+        {
+          "name": "Normalization and Normal Forms",
+          "weight": 18,
+          "subtitle": "Primary/Foreign keys, dependencies, 1NF, 2NF, 3NF",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 96
+        },
+        {
+          "name": "DDL & DML Syntax",
+          "weight": 25,
+          "subtitle": "Explains database attributes & SQL commands",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 98
+        },
+        {
+          "name": "Advanced SQL: Joins & Views",
+          "weight": 20,
+          "subtitle": "Determines SQL queries, JOINs, aggregate functions",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 96
+        },
+        {
+          "name": "Business Intelligence",
+          "weight": 15,
+          "subtitle": "DBMS components, indexes, analytical databases",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 100
+        }
+      ],
+      "telemetry": [
+        { "label": "Attempt Number", "value": "Pre-Assessment Attempt 5" },
+        { "label": "Date", "value": "Sep 28, 2026" },
+        { "label": "Time Elapsed", "value": "19 Minutes" },
+        { "label": "Pre-A History", "dots": ["fail", "fail", "pass", "pass", "pass"], "value": "(3 Perfect/Near-Perfect)" }
+      ]
+    },
+    {
+      "category": "PA",
+      "tabLabel": "Pre-A #4 (Sep 19)",
+      "shortLabel": "Pre-A #4",
+      "reportTitle": "Pre-Assessment: Attempt 4 Coaching Report",
+      "assessmentType": "Pre-Assessment",
+      "date": "Sep 19, 2026",
+      "duration": "23 mins",
+      "overallResult": "PASSED",
+      "overallStatusLabel": "COMPETENT",
+      "overallBarPct": 95,
+      "competencies": [
+        {
+          "name": "Data Modeling and Design",
+          "weight": 22,
+          "subtitle": "Entities, attributes, relationships, cardinality",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 96
+        },
+        {
+          "name": "Normalization and Normal Forms",
+          "weight": 18,
+          "subtitle": "Primary/Foreign keys, dependencies, 1NF, 2NF, 3NF",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 92
+        },
+        {
+          "name": "DDL & DML Syntax",
+          "weight": 25,
+          "subtitle": "Explains database attributes & SQL commands",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 95
+        },
+        {
+          "name": "Advanced SQL: Joins & Views",
+          "weight": 20,
+          "subtitle": "Determines SQL queries, JOINs, aggregate functions",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 94
+        },
+        {
+          "name": "Business Intelligence",
+          "weight": 15,
+          "subtitle": "DBMS components, indexes, analytical databases",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 98
+        }
+      ],
+      "telemetry": [
+        { "label": "Attempt Number", "value": "Pre-Assessment Attempt 4" },
+        { "label": "Date", "value": "Sep 19, 2026" },
+        { "label": "Time Elapsed", "value": "23 Minutes" }
+      ]
+    },
+    {
+      "category": "OA",
+      "tabLabel": "OA Attempt 1 (Sep 5)",
+      "shortLabel": "OA Attempt 1",
+      "reportTitle": "Objective Assessment: Attempt 1 Coaching Report",
+      "assessmentType": "Proctored OA",
+      "date": "Sep 5, 2026",
+      "duration": "102 mins",
+      "overallResult": "NOT PASSED",
+      "overallStatusLabel": "APPROACHING COMPETENCE",
+      "overallBarPct": 58,
+      "competencies": [
+        {
+          "name": "Data Modeling and Design",
+          "weight": 22,
+          "subtitle": "Entities, attributes, relationships, cardinality",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 74
+        },
+        {
+          "name": "Normalization and Normal Forms",
+          "weight": 18,
+          "subtitle": "Primary/Foreign keys, dependencies, 1NF, 2NF, 3NF",
+          "ratingLabel": "APPROACHING COMPETENCE",
+          "ratingClass": "approaching",
+          "barPct": 60
+        },
+        {
+          "name": "DDL & DML Syntax",
+          "weight": 25,
+          "subtitle": "Explains database attributes & SQL commands",
+          "ratingLabel": "APPROACHING COMPETENCE",
+          "ratingClass": "approaching",
+          "barPct": 50
+        },
+        {
+          "name": "Advanced SQL: Joins & Views",
+          "weight": 20,
+          "subtitle": "Determines SQL queries, JOINs, aggregate functions",
+          "ratingLabel": "NOT COMPETENT",
+          "ratingClass": "not-competent",
+          "barPct": 42
+        },
+        {
+          "name": "Business Intelligence",
+          "weight": 15,
+          "subtitle": "DBMS components, indexes, analytical databases",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 72
+        }
+      ],
+      "telemetry": [
+        { "label": "Attempt Number", "value": "OA Attempt 1 of 4" },
+        { "label": "Exam Date", "value": "Sep 5, 2026" },
+        { "label": "Time Elapsed", "value": "102 Minutes" },
+        { "label": "Pre-A Attempts Prior to Attempt 1", "dots": ["fail", "fail", "pass"], "value": "(3 Attempts)" },
+        { "label": "zyBooks Completion Rate Prior to Attempt 1", "value": "68% Overall (27% Labs)" }
+      ]
+    },
+    {
+      "category": "PA",
+      "tabLabel": "Pre-A #3 (Sep 2)",
+      "shortLabel": "Pre-A #3",
+      "reportTitle": "Pre-Assessment: Attempt 3 Coaching Report",
+      "assessmentType": "Pre-Assessment",
+      "date": "Sep 2, 2026",
+      "duration": "28 mins",
+      "overallResult": "PASSED",
+      "overallStatusLabel": "COMPETENT",
+      "overallBarPct": 92,
+      "competencies": [
+        {
+          "name": "Data Modeling and Design",
+          "weight": 22,
+          "subtitle": "Entities, attributes, relationships, cardinality",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 94
+        },
+        {
+          "name": "Normalization and Normal Forms",
+          "weight": 18,
+          "subtitle": "Primary/Foreign keys, dependencies, 1NF, 2NF, 3NF",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 90
+        },
+        {
+          "name": "DDL & DML Syntax",
+          "weight": 25,
+          "subtitle": "Explains database attributes & SQL commands",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 92
+        },
+        {
+          "name": "Advanced SQL: Joins & Views",
+          "weight": 20,
+          "subtitle": "Determines SQL queries, JOINs, aggregate functions",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 89
+        },
+        {
+          "name": "Business Intelligence",
+          "weight": 15,
+          "subtitle": "DBMS components, indexes, analytical databases",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 95
+        }
+      ],
+      "telemetry": [
+        { "label": "Attempt Number", "value": "Pre-Assessment Attempt 3" },
+        { "label": "Date", "value": "Sep 2, 2026" },
+        { "label": "Time Elapsed", "value": "28 Minutes" }
+      ]
+    },
+    {
+      "category": "PA",
+      "tabLabel": "Pre-A #2 (Aug 25)",
+      "shortLabel": "Pre-A #2",
+      "reportTitle": "Pre-Assessment: Attempt 2 Coaching Report",
+      "assessmentType": "Pre-Assessment",
+      "date": "Aug 25, 2026",
+      "duration": "52 mins",
+      "overallResult": "NOT PASSED",
+      "overallStatusLabel": "APPROACHING COMPETENCE",
+      "overallBarPct": 61,
+      "competencies": [
+        {
+          "name": "Data Modeling and Design",
+          "weight": 22,
+          "subtitle": "Entities, attributes, relationships, cardinality",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 72
+        },
+        {
+          "name": "Normalization and Normal Forms",
+          "weight": 18,
+          "subtitle": "Primary/Foreign keys, dependencies, 1NF, 2NF, 3NF",
+          "ratingLabel": "APPROACHING COMPETENCE",
+          "ratingClass": "approaching",
+          "barPct": 62
+        },
+        {
+          "name": "DDL & DML Syntax",
+          "weight": 25,
+          "subtitle": "Explains database attributes & SQL commands",
+          "ratingLabel": "APPROACHING COMPETENCE",
+          "ratingClass": "approaching",
+          "barPct": 55
+        },
+        {
+          "name": "Advanced SQL: Joins & Views",
+          "weight": 20,
+          "subtitle": "Determines SQL queries, JOINs, aggregate functions",
+          "ratingLabel": "NOT COMPETENT",
+          "ratingClass": "not-competent",
+          "barPct": 48
+        },
+        {
+          "name": "Business Intelligence",
+          "weight": 15,
+          "subtitle": "DBMS components, indexes, analytical databases",
+          "ratingLabel": "COMPETENT",
+          "ratingClass": "competent",
+          "barPct": 70
+        }
+      ],
+      "telemetry": [
+        { "label": "Attempt Number", "value": "Pre-Assessment Attempt 2" },
+        { "label": "Date", "value": "Aug 25, 2026" },
+        { "label": "Time Elapsed", "value": "52 Minutes" }
+      ]
+    },
+    {
+      "category": "PA",
+      "tabLabel": "Pre-A #1 (Aug 14)",
+      "shortLabel": "Pre-A #1",
+      "reportTitle": "Pre-Assessment: Attempt 1 Coaching Report",
+      "assessmentType": "Pre-Assessment",
+      "date": "Aug 14, 2026",
+      "duration": "68 mins",
+      "overallResult": "NOT PASSED",
+      "overallStatusLabel": "NOT COMPETENT",
+      "overallBarPct": 47,
+      "competencies": [
+        {
+          "name": "Data Modeling and Design",
+          "weight": 22,
+          "subtitle": "Entities, attributes, relationships, cardinality",
+          "ratingLabel": "APPROACHING COMPETENCE",
+          "ratingClass": "approaching",
+          "barPct": 60
+        },
+        {
+          "name": "Normalization and Normal Forms",
+          "weight": 18,
+          "subtitle": "Primary/Foreign keys, dependencies, 1NF, 2NF, 3NF",
+          "ratingLabel": "NOT COMPETENT",
+          "ratingClass": "not-competent",
+          "barPct": 42
+        },
+        {
+          "name": "DDL & DML Syntax",
+          "weight": 25,
+          "subtitle": "Explains database attributes & SQL commands",
+          "ratingLabel": "NOT COMPETENT",
+          "ratingClass": "not-competent",
+          "barPct": 38
+        },
+        {
+          "name": "Advanced SQL: Joins & Views",
+          "weight": 20,
+          "subtitle": "Determines SQL queries, JOINs, aggregate functions",
+          "ratingLabel": "NOT COMPETENT",
+          "ratingClass": "not-competent",
+          "barPct": 35
+        },
+        {
+          "name": "Business Intelligence",
+          "weight": 15,
+          "subtitle": "DBMS components, indexes, analytical databases",
+          "ratingLabel": "APPROACHING COMPETENCE",
+          "ratingClass": "approaching",
+          "barPct": 62
+        }
+      ],
+      "telemetry": [
+        { "label": "Attempt Number", "value": "Pre-Assessment Attempt 1" },
+        { "label": "Date", "value": "Aug 14, 2026" },
+        { "label": "Time Elapsed", "value": "68 Minutes" }
+      ]
+    }
+  ],
+  "crmNotes": [
+    {
+      "date": "Sep 12, 2026",
+      "roleCategory": "CI",
+      "roleBadge": "Course Instructor",
+      "author": "M. Chen (Primary CI)",
+      "channel": "25-Min Phone Call + Email",
+      "title": "OA Attempt 1 Review & Attempt 2 MAP Sent",
+      "body": "Reviewed Attempt 1 coaching report with Jordan. Student felt the OA wording was tricky compared to the reading. Assigned targeted review of SQL syntax in Chapters 4 and 5 and sent Attempt 2 Multiple Attempt Plan (MAP).",
+      "attachment": {
+        "heading": "Attached Email: OA Attempt 2 MAP (Sent Sep 12, 2026)",
+        "content": "Hi Jordan,\nThank you for meeting with me today. Here is your Attempt 2 Study Plan:\n1. Re-read Chapter 4 (DDL & DML Syntax) and Chapter 5 (JOINs & Views) in zyBooks.\n2. Score 80% or higher on the Chapter 4 and Chapter 5 End-of-Chapter Quizzes.\n3. Retake the Pre-Assessment to verify readiness before scheduling Attempt 2."
+      }
+    },
+    {
+      "date": "Sep 29, 2026",
+      "roleCategory": "CI",
+      "roleBadge": "Course Instructor",
+      "author": "M. Chen (Primary CI)",
+      "channel": "15-Min Phone Call",
+      "title": "OA Attempt 2 Approval",
+      "body": "Verified Jordan completed the Chapter 4 and Chapter 5 reading and scored 80% on both chapter quizzes, plus scored Competent across all areas on the Pre-Assessment. Approved OA Attempt 2."
+    },
+    {
+      "date": "Oct 5, 2026",
+      "roleCategory": "CI",
+      "roleBadge": "Course Instructor",
+      "author": "M. Chen (Primary CI)",
+      "channel": "30-Min Phone Call + Email",
+      "title": "OA Attempt 3 Intake Call & MAP Assigned",
+      "body": "Spoke with Jordan following OA Attempt 2. Student was frustrated that the OA questions do not match the Pre-Assessment. Reviewed PA history together: Jordan has taken the PA 5 times, passing the last 3 with near-perfect scores in under 30 minutes. Diagnosed PA memorization. Assigned Attempt 3 MAP below.",
+      "attachment": {
+        "heading": "Attached Email: OA Attempt 3 MAP (Sent Oct 5, 2026)",
+        "content": "Hi Jordan,\nBecause you have seen the Pre-Assessment questions several times, we want to shift away from the PA and focus on new practice questions for Attempt 3:\n1. Complete the Chapter 4 zyBooks Labs (6 of 8 labs).\n2. Complete the comprehensive 90-Question Challenge Quiz (closed-note diagnostic) with a score of 85% or higher.\n\nI will check in with you in two weeks to see how you are feeling."
+      }
+    },
+    {
+      "date": "Oct 19, 2026",
+      "roleCategory": "CI",
+      "roleBadge": "Course Instructor",
+      "author": "M. Chen (Primary CI)",
+      "channel": "Outbound / Inbound Email",
+      "title": "1-2-3 Study Plan Check-In",
+      "body": "Sent 1-2-3 check-in email. Student replied: '2: Feeling overwhelmed by the 90-Question Challenge Quiz and worried about failing again.'"
+    },
+    {
+      "date": "Oct 25, 2026",
+      "roleCategory": "CI",
+      "roleBadge": "Course Instructor",
+      "author": "M. Chen (Primary CI)",
+      "channel": "10-Min Phone Call",
+      "title": "Check-In Call & Reassurance",
+      "body": "Quick call to reassure Jordan and lower their test anxiety. Reminded them they can use their course notes and study sheets for the 90-Question Challenge Quiz so they do not feel so overwhelmed."
+    },
+    {
+      "date": "Nov 8, 2026",
+      "roleCategory": "CI",
+      "roleBadge": "Course Instructor",
+      "author": "M. Chen (Primary CI)",
+      "channel": "Salesforce Approval Note",
+      "title": "90-Question Challenge Quiz Submitted & Attempt 3 Approved",
+      "body": "Student completed Chapter 4 labs and submitted the 90-Question Challenge Quiz with a 95% score. Approved OA Attempt 3."
+    },
+    {
+      "date": "Nov 14, 2026",
+      "roleCategory": "CI",
+      "roleBadge": "Course Instructor",
+      "author": "M. Chen (Primary CI)",
+      "channel": "45-Min Live Screen-Share Call",
+      "title": "OA Attempt 4 Intake & Live Diagnostic",
+      "body": "Conducted 45-minute live screen-share after Jordan's Attempt 3 score dropped significantly lower than Attempt 2. Student is completely burnt out. Jordan confessed that after being told they could use resources on the 90-Question Challenge Quiz, they found a Quizlet deck online with the exact Challenge Quiz questions and memorized the answers just to get past the Attempt 3 requirements.\n\nDuring live SQL coding on screen-share, Jordan could not write a basic SELECT...FROM...WHERE statement from scratch or identify which table was the Left vs. Right table in a JOIN without looking at examples. Informed Jordan that Attempt 4 requires Multiple Attempt Committee (ACC) approval and a complete foundational reset. Let Jordan know I am on Out-of-Office leave Nov 15 to Nov 22 and a covering CI will finalize their Attempt 4 plan."
+    },
+    {
+      "date": "Nov 15, 2026",
+      "roleCategory": "Manager",
+      "roleBadge": "CI Manager",
+      "author": "A. Vance (CI Manager)",
+      "channel": "Salesforce Coverage Routing",
+      "title": "Temporary Out-of-Office Coverage Assignment",
+      "body": "Primary CI (M. Chen) is on planned Out-of-Office leave Nov 15 to Nov 22. Routed Jordan K. to your queue for Attempt 4 study plan design and ACC submission."
+    },
+    {
+      "date": "Nov 16, 2026",
+      "roleCategory": "Student",
+      "roleBadge": "Student Email",
+      "author": "Jordan K.",
+      "channel": "Inbound Email",
+      "title": "Following up on our call / 4th attempt plan",
+      "body": "Hi, Instructor Chen had an auto-reply saying to reach out to you this week while she is out of office. After our screen-share call on Nov 14, I have been really stressed about needing committee approval for my 4th attempt. I have spent over 65 hours in this class since August and I honestly feel completely burnt out. Every time I read the zyBooks chapters, it makes sense while I am looking at the page, but when I get on the test or try to write a query from scratch, my mind goes completely blank. What should I be working on this week so my 4th attempt gets approved?"
+    }
+  ]
+}
